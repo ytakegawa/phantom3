@@ -1,0 +1,45 @@
+@media(max-width:1000px){
+    .top-wrapper-btn{
+        width:100%;
+        text-align:center;
+        margin:30px auto;
+    }
+    .header-right{
+        display:none;
+    }
+
+    .container span{
+        display:block;
+        margin:0 20px;
+    }
+
+}
+@media(max-width:670px){
+    footer{
+        text-align:center;
+    }
+    .btn{
+        width:100%;
+    }
+    .top-wrapper{
+        text-align:left;
+        padding-top:130px;
+    }
+    .container h1{
+        font-size:24px;
+        padding-left:10px;
+    }
+    .container p{
+        font-size:12px;
+        padding-left:10px;
+    }
+    .header-right{
+        display:none;
+    }
+
+    .container span{
+        display:block;
+        margin:0 20px;
+    }
+
+}

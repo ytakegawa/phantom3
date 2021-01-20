@@ -1,0 +1,161 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+*{
+  box-sizing:border-box;
+}
+/* ここからCSSを書いていきましょう */
+
+.top-wrapper{
+  background-image:url(https://carclother.com/wp-content/uploads/2021/01/phantom3-scaled.jpg);
+  background-size:cover;
+  padding:200px 0 200px 0;
+  text-align:center;
+
+}
+
+.container{
+  max-width: 1170px;
+  width: 100%;
+  color:white;
+  margin:0 auto;
+}
+.container h1{
+  font-size:45px;
+  font-weight:bold;
+  letter-spacing:5px;
+  opacity:0.7;
+}
+
+.container a:hover{
+  opacity:0.5;
+  color:white;
+}
+.top-wrapper-btn{
+  text-align:center;
+  margin:20px 5px 0 0;
+  float:left;
+  width:30%;
+}
+.btns{
+  margin:0 auto;
+  margin-bottom:100px;
+}
+
+.top-wrapper-btn a{
+  display:inline-block;
+}
+.btn{
+  color:white;
+  padding:8px 24px;
+  border-radius:4px;
+  opacity:1;
+  width:200px;
+}
+,btn:hover{
+  opacity:0.6;
+}
+.gaiyou{
+  background-color:#239b76;
+}
+.manual{
+  background-color:#3b5998;
+}
+.sample-movie{
+  background-color:#55acee;
+}
+header{
+  background-color:rgba(34,49,52,0.9);
+  width:100%;
+  height:65px;
+  position:fixed;
+  top:0px;
+  z-index:10;
+}
+.header-left{
+  float:left;
+  padding-left:30px;
+  padding-right:30px;
+}
+.logo{
+  width: 80px;
+}
+
+.menu-icon{
+  color:white;
+  font-size:25px;
+  padding:21px 0px;
+  float:right;
+  display:none;
+}
+
+
+.header-right{
+  float:right;
+  margin-right:-25px;
+}
+
+.header-right a{
+  color:white;
+  display:block;
+  line-height:65px;
+  padding:0 25px ;
+  transition:all 0.5s;
+  float:left;
+}
+
+.header-right a:hover{
+  background-color:rgba(255,255,255,0.7);
+}
+.message-wrapper{
+  text-align:center;
+  padding-bottom:80px;
+}
+.heading p{
+  font-size:20px;
+  color:#5f5d60;
+  font-weight:bold;
+}
+.message-btn a{
+  background-color:#5dca88;
+  padding:15px 40px;
+  box-shadow:0px 7px #1a7940;
+
+}
+.btn:hover{
+  opacity:0.9;
+}
+.message-btn a:active{
+  box-shadow:none;
+  position:relative;
+  top:7px;
+}
+footer{
+  padding:20px 0;
+  border-top:1px solid #eee;
+}
+
+.footer-logo{
+  width:80px;
+}
+footer p{
+  color:#b3aeb5;
+  font-size:12px;
+  font-weight:bold;
+}
